@@ -21,13 +21,13 @@ p {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 .home_welcome {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 4rem;
   width: 100%;
 }
@@ -38,22 +38,26 @@ p {
 }
 
 .welcome-img1 {
-  width: 25rem;
-  height: 25rem;
-  border: 0.8rem solid rgb(251, 139, 36, 0.5);
+  width: 20rem;
+  height: 20rem;
+  border: 0.8rem solid rgb(82, 211, 216, 0.5);
 }
-
+.welcome-img1 img{
+  width: 20rem;
+  height: 20rem;
+} 
 .welcome-img2 {
-  width: 18rem;
-  height: 18rem;
-  border: 0.8rem solid rgb(251, 139, 36, 0.5);
+  width: 16rem;
+  height: 16em;
+  border: 0.8rem solid rgb(82, 211, 216, 0.5);
   position: relative;
   bottom: 6rem;
   left: 16rem;
+  background-color: white;
 }
 .welcome-img2 img {
-  width: 10rem;
-  height: 10rem;
+  width: 16rem;
+  height: 16rem;
 }
 .welcome_right {
   margin-left: 2rem;
@@ -64,7 +68,7 @@ p {
 .home_aboutUs {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .aboutUs_left {
@@ -80,13 +84,17 @@ p {
 
 .about-img1 {
   width: 25rem;
-  height: 25rem;
-  border: 0.8rem solid rgb(251, 139, 36, 0.5);
+  height: 20rem;
+  border: 0.8rem solid rgb(82, 211, 216, 0.5);
+}
+.about-img1 img{
+  width: 25rem;
+  height: 20rem;
 }
 .about-img2 {
-  width: 18rem;
-  height: 18rem;
-  border: 0.8rem solid rgb(251, 139, 36, 0.5);
+  width: 16rem;
+  height: 16rem;
+  border: 0.8rem solid rgb(82, 211, 216, 0.5);
   position: relative;
   bottom: 6rem;
   left: 16rem;
@@ -119,13 +127,13 @@ p {
   padding: 3px;
   border-radius: 5px;
   display: inline-block;
-  margin-right: 10px;
+  margin:2rem 3rem 2rem 0;
 }
 .aboutUs_mission h4 {
   display: inline-block;
   font-size: 1rem;
   color: #219d80;
-  padding-bottom: 3px;
+  padding:0 0 3px 5px;
 }
 
 .vision_svg {
@@ -139,7 +147,7 @@ p {
   display: inline-block;
   font-size: 1rem;
   color: #219d80;
-  padding-bottom: 3px;
+  padding:0 0 3px 10px;
 }
 .aboutUs_vision {
   width: 11rem;
@@ -169,4 +177,56 @@ p {
     background-color:#29ADB2 ;
     margin-top: 10px;
     cursor: pointer;
+}
+
+.read_more_btn:hover{
+    
+    border: 1px solid black;
+    color: black;
+    opacity: 0.3;
+}
+
+.read_more_btn a:hover{
+    color: black;
+}
+
+.home_getInvolved{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+  width: 80%;
+}
+
+.home_getInvolved h3{
+  margin: 1rem;
+}
+.getInvolved_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.getInvolved_img{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10pxs;
+  margin: 20px 10rem 20px 20px;
+  border: 0.8rem solid rgb(82, 211, 216, 0.5);
+
+}
+.getInvolved_img img{
+  width: 20rem;
+  height: 20rem;
+}
+.getInvolved_list{
+margin-left:10rem; 
+justify-self: baseline;
+
+}
+.getInvolved_list li{
+  font-size: 2rem;
+  padding: 10px;
 }

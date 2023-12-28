@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { Link, NavLink } from "react-router-dom";
+import Card from "../Blog/StoriesCard";
 
 const Home = (props) => {
   return (
@@ -8,10 +9,10 @@ const Home = (props) => {
       <div className="home_welcome">
         <div className="welcome_left">
           <div className="welcome-img1">
-            {/* <img src="https://th.bing.com/th/id/OIP.VOZ_82faWjoHybU46jfbFAHaKe?rs=1&pid=ImgDetMain"></img> */}
+            <img src="https://th.bing.com/th/id/R.eb7a38c8773fa37bd7457cd41377d676?rik=hDvIJUOdbOUGOQ&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%2f04%2fsunrise2pelee.jpg&ehk=8%2b0uYNfXcKb6LCc0W4OXWJNqC5gxQqpoyrIXZPpdWNg%3d&risl=&pid=ImgRaw&r=0"></img>
           </div>
           <div className="welcome-img2">
-            {/* <img src="https://th.bing.com/th/id/OIP.VOZ_82faWjoHybU46jfbFAHaKe?rs=1&pid=ImgDetMain"></img> */}
+            <img src="https://th.bing.com/th/id/R.0a687c59c5de4b278d61753cad929c63?rik=rZqr6CgSfYMvhQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f07%2fSunrise-Image-Pictures.jpg&ehk=Drb6bWM4Z%2b91ooK%2f%2bRppGY49TDoJ%2bgSedHxWtj6KBnY%3d&risl=&pid=ImgRaw&r=0"></img>
           </div>
         </div>
         <div className="welcome_right">
@@ -56,7 +57,8 @@ const Home = (props) => {
           </div>
           <div className="aboutUs_vision">
             <div>
-              <svg className="vision_svg"
+              <svg
+                className="vision_svg"
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
                 height="27"
@@ -72,10 +74,14 @@ const Home = (props) => {
             </div>
             <p>This is the main vision of our organization</p>
           </div>
-         <button className="read_more_btn"><NavLink to="/AboutUs">Read More</NavLink></button>
+          <button className="read_more_btn">
+            <NavLink to="/AboutUs">Read More</NavLink>
+          </button>
         </div>
         <div className="aboutUs_right">
-          <div className="about-img1">img3</div>
+          <div className="about-img1">
+            <img src="https://psmarketingimages.s3.amazonaws.com/blog/wp-content/uploads/2018/02/16120446/hand-putting-coins-in-glass-jar-for-giving-and-donation-concept-picture-id813128966.jpg"></img>
+          </div>
           <div className="about-img2">
             <ul>
               <li>Together we are going to change the future</li>
@@ -86,8 +92,21 @@ const Home = (props) => {
         </div>
       </div>
 
-      <div className="home_goals">
-        <h3>Goals</h3>
+      <div className="home_getInvolved">
+        <h3>Get Involved--</h3>
+        <p>Join us in making difference! There are several ways you can get involved</p>
+        <div className="getInvolved_div">
+          <div className="getInvolved_img">
+            <img src="https://costumecollege.org/wp-content/uploads/2021/11/Education-Importance.jpg"></img>
+          </div>
+          <div className="getInvolved_list">
+            <ul>
+              <li>Volunteer your time and skill</li>
+              <li>Donate to support our cause</li>
+              <li>Spread the word and raise awareness</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );

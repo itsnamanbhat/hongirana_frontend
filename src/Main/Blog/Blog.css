@@ -1,0 +1,29 @@
+.card_div{
+display:  flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+.subcontainer1{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.recentPosts_c{
+    /* border: 1px solid gray; */
+    padding: 10px;
+    margin-right: 30px;
+}
+
+.subcontainer1 h2{
+    margin-bottom: 10px;
+}
+
+.upcomingEvents_c{
+    padding: 10px;
+    margin-left:30px ;
+}

@@ -1,0 +1,25 @@
+.main{
+    display:flex;
+    justify-content: baseline;
+    align-items: center;
+    border-bottom:3px solid rgb(82, 211, 216, 0.7);
+    width: 40rem;
+}
+
+.img_c{
+    width: 5rem;
+    height: 5rem;
+    background-color: gray;
+    margin: 3px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+.content_c h3{
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.content_c p{
+    font-size: 12px;
+    font-weight: 300;
+}

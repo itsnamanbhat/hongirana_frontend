@@ -1,0 +1,45 @@
+.donate_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    margin: 1rem;
+}
+.donate_main h3{
+    border-bottom:2px solid rgb(82, 211, 216, 0.5);
+    margin-bottom: 15px;
+}
+
+.donate_main li{
+    padding: 8px;
+}
+
+.donate_s1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donate_reason{
+    padding: 2rem;
+    margin-right:4rem ;
+    width: 28rem;
+    align-self: baseline;
+}
+
+.donate_ways span{
+    color:#159895 ;
+    font-weight: 800;
+}
+.donate_ways{
+    padding: 2rem;
+}
+
+.donate_impact{
+    margin-top: 15px;
+}
+
+.donate_button{
+    margin-top: 2rem;
+}

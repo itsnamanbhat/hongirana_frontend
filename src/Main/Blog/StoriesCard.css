@@ -1,0 +1,54 @@
+.main_c{
+    height: 20rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin:20px;
+}
+
+.image_c{
+    margin: 10px;
+    width: 12rem;
+    height: 9rem;
+    background-color: silver;
+    border-radius: 10px;
+}
+
+.description_c{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.description_c h3{
+    font-size: 1.5rem;
+}
+
+.description_c p{
+font-weight: 300;
+font-size: 15px;
+padding: 0;
+margin: 0;
+flex-wrap: wrap;
+align-self: baseline;
+flex-grow: inherit;
+}
+
+button{
+background-color: #29ADB2;
+width: 7rem;
+height: 2rem;
+color: white;
+border-radius: 5px;
+margin: 5px;
+border: none;
+cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border:1px solid black;
+}
