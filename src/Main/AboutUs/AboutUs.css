@@ -1,0 +1,55 @@
+.AboutUs_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:0 3rem;
+    margin: 0 1rem;
+}
+.AboutUs_main h3{
+    border-bottom:2px solid rgb(249, 132, 4, 0.5);
+    margin-bottom: 15px;
+}
+
+.AboutUs_main li{
+    padding: 8px;
+}
+
+.AboutUs_s1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.AboutUs_vision{
+    padding: 2rem;
+}
+
+.AboutUs_mission{
+    padding: 2rem;
+}
+.AboutUs_s2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:3rem ;
+}
+.AboutUs_studentSelection{
+    margin-top: 15px;
+}
+
+.criteria{
+    padding: 1rem;
+}
+.criteria h4{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.criteria p{
+    display: inline-block;
+}
+.AboutUs_button{
+    margin-top: 2rem;
+}
+

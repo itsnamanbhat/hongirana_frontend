@@ -1,0 +1,21 @@
+
+.people_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.card_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid black;
+}
+
+.people_main h2{
+    font-size: 3rem;
+    padding: 1rem;
+    font-family: "Playfair Display", serif;
+}

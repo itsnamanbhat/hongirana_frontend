@@ -1,0 +1,40 @@
+.href {
+  display: inline-block;
+ text-decoration: none;
+}
+
+.href:hover{
+    opacity: 0.6;
+}
+
+.button{
+    width: 8rem;
+    height: 2rem;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #FFA33C;
+}
+
+.button:hover{
+    opacity: 0.6;
+    outline: 1px solid black;
+    border-width: 0px;
+}
+
+.link{
+    text-decoration: none;
+    border:1px solid black;
+    color: white;
+    padding: 0.5rem;
+    margin: 1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.link:hover{
+    background-color: black;
+    opacity: 0.6;
+}
